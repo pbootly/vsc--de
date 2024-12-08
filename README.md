@@ -18,7 +18,9 @@ Keybindings in an attempt to make vscode interface in a way similar to [my neovi
 According to [online documentation](https://code.visualstudio.com/docs/getstarted/settings) that'll be:
 
 > Windows %APPDATA%\Code\User\settings.json
+> 
 > macOS $HOME/Library/Application\ Support/Code/User/settings.json
+> 
 > Linux $HOME/.config/Code/User/settings.json
 
 Alternatively open settings with `Preferences: Open User Settings (JSON)` command palette and pasting the contents from this repo there.
