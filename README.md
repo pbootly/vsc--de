@@ -1,4 +1,4 @@
-# vsc--de
+# vsc--de.init
 Vscode... dotfiles?! Bootstrap your vscode, if you want.
 
 Keybindings in an attempt to make vscode interface in a way similar to [my neovim dotfiles](https://github.com/pbootly/init.nvim)
