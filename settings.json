@@ -1,0 +1,177 @@
+{
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "find-it-faster.general.useTerminalInEditor": true,
+    "go.toolsManagement.autoUpdate": true,
+    "makefile.configureOnOpen": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        // Fuzzy Finder (rip telescope)
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "f"
+            ],
+            "commands": [
+                "find-it-faster.findFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "s"
+            ],
+            "commands": [
+                "find-it-faster.findWithinFiles"
+            ]
+        },
+        // Handy!
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "z"
+            ],
+            "commands": [
+                "workbench.action.toggleZenMode"
+            ]
+        },
+        // Harpoon!
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "commands": [
+                "vscode-harpoon.addEditor"
+            ]
+        },
+        {
+            "before": [
+                "<C-e>"
+            ],
+            "commands": [
+                "vscode-harpoon.editorQuickPick"
+            ]
+        },
+        // Try and replicate my LSP keybinds
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "w",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "d"
+            ],
+            "commands": [
+                "editor.action.diagnostic.show"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "r",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                "editor.action.triggerParameterHints"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Gruvbox Dark Soft",
+    "workbench.startupEditor": "none",
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.showTabs": "single"
+}
